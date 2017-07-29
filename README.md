@@ -4,7 +4,7 @@ This is the code for a classifier that detects fake banknotes.
 
 ## Overview
 
-I built a multilayer perceptron which classifies real and forged banknotes, using the [TensorFlow](https://www.tensorflow.org/) library. Data preprocesssing and model comparison was done with [Scikit-learn](http://scikit-learn.org/stable/). The inputs are numeric values, and the output is binary.
+I built a multilayer perceptron which classifies real and forged banknotes, using the [TensorFlow](https://www.tensorflow.org/) library. Data preprocesssing was done with [Scikit-learn](http://scikit-learn.org/stable/). The inputs are numeric values, and the output is binary.
 
 The model was able to classify text with a **100%** accuracy, which suggests that the data was probably just easy to classify.
 
@@ -21,7 +21,7 @@ Install dependencies using [pip](https://pip.pypa.io/en/stable/).
 
 The dataset was taken from the [UCI Repository](https://archive.ics.uci.edu/ml/datasets/banknote+authentication). It contains 1,372 observations (banknotes) and 4 attributes.
 
-**Note:** Data were numeric values extracted Wavelet Transformed Images (WTIs) of banknote specimens.
+**Note:** Data were numeric values extracted from Wavelet Transformed Images (WTIs) of banknote specimens.
 
 | Column  | Definition |
 | ------------- | ------------- |
