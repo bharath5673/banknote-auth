@@ -6,7 +6,7 @@ This is the code for a classifier that detects fake banknotes.
 
 I built a multilayer perceptron which classifies real and forged banknotes, using the [TensorFlow](https://www.tensorflow.org/) library. Data preprocesssing was done with [Scikit-learn](http://scikit-learn.org/stable/). The inputs are numeric values, and the output is binary.
 
-The model was able to classify text with a **100%** accuracy, which suggests that the data was probably just easy to classify.
+The model was able to classify banknotes with a **100%** accuracy, which suggests that the data was probably just easy to classify.
 
 ## Dependencies
 
